@@ -1,0 +1,36 @@
+body {
+    background-color: antiquewhite;
+}
+
+h1, .recipe, img, .instructions, .home {
+    background-color: gray;
+    outline: 3px solid black;
+}
+
+h1 {
+    text-align: center;
+    padding: 2px;
+}
+.recipe, .home {
+   padding: 10px;
+    text-align: center;
+    margin-right: 10px;
+    color: white;
+}
+
+img {
+    height: 300px;
+    display: block;
+    margin: 10px auto;
+}
+
+.instructions {
+    margin: 10px 5px;
+    padding: 5px;
+    background-color: ghostwhite;
+}
+
+.home {
+    margin-top: 10px;
+    display: block;
+}
